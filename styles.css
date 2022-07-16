@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.background-image {
+background-size: cover;
+background-repeat: no-repeat;
+height: 150vh;
+background: linear-gradient(287.15deg, #EFAFBC 0%, #C3E3FA 100%);
+border-radius: 0px;
+overflow: hidden;
+}
+
+.div_back{
+    position: absolute;
+    width: 650px;
+    height: 900px;
+    left: 860px;
+    top: 20px;
+    opacity: 0.2;
+}
+.vector{
+    position: absolute;
+height: 100vh;
+
+transform: matrix(1, 0.05, -0.06, 1, 0, 0);
+}
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin-left: 70px;
+    nav-left: 100px;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: rgb(163, 162, 162);
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+.text{
+    float: left;
+margin-top: 50px;
+margin-left: 150px;
+width: 500px;
+text-transform: capitalize;
+color: black;
+
+}
+    .div1{
+ float: right; 
+/* width: 717.58px;
+height: 828.83px;
+left: 728px;
+top: 132px; */
+left: 800px;
+top: 100px;
+
+
+/* Jaket 1 1 */
+
+position: absolute;
+width: 150px;
+height: 150px;
+/* left: 728px;
+top: 383px; */
+
+/* background: url("images/jacket.png"); */
+filter: drop-shadow(24px -4px 30px rgba(120, 120, 120, 0.2));
+
+}
+
+.div2 {
+    position: absolute;
+width: 150px;
+height: 150px;
+left: 770px;
+top: 400px;
+/* left: 927px;
+top: 50px; */
+}
+
+.div3 {
+    position: absolute;
+width: 150px;
+height: 150px;
+left: 870px;
+top: 400px;
+/* left: 927px;
+top: 50px; */
+}
+
+.div4 {
+    position: absolute;
+width: 150px;
+height: 150px;
+left: 990px;
+top: 340px;
+/* left: 927px;
+top: 50px; */
+}
+
+.btn{
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 30px 30px 50px 46px;
+  box-shadow: 1px 1px 1px 1px rgb(95, 95, 255);
+  border: none;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  text-transform: capitalize;
+  color: #67a3e9;
+}
+
+.btn:hover{
+    background-color: #67a3e9;
+    color: azure;
+}
+
+.flex-container {
+    display: flex;
+    margin-left: 113px;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-facebook {
+    color: white;
+}
+.fa-telegram {
+    color: white;
+}

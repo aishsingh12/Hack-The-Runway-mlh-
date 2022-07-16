@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    font-family: Poppins;
+}
+
+.tagline{
+    font-size: 36px; 
+    font-weight: bolder;
+    line-height: 1.2rem;
+    font-style: oblique;
+    
+}
+
+html {
+    background-color: #DFDFDF;
+}
